@@ -1,0 +1,34 @@
+canvas {
+  background: url("https://media.tenor.com/wIa91mot0tAAAAAd/pixel-city-chill.gif");
+  margin-top: 10%;
+}
+
+body {
+  background: url("https://i.pinimg.com/originals/6c/17/15/6c1715bbb6d68e5f88b23bfb761a8bb5.jpg");
+  background-size: cover;
+
+  background-position: center center;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  color: #d498b8;
+  font-size: 40px;
+  font-family: "Press Start 2p";
+  font-weight: 900;
+  -webkit-text-stroke: 1px purple;
+  margin-bottom: -9%;
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+  color: #d498b8;
+  -webkit-text-stroke: 1px purple;
+}
