@@ -211,7 +211,7 @@ function draw() {
     dy = -dy;
   } else if (y + dy > canvas.height - (ballRadius - 70)) {
     document.location.reload();
-    clearInterval(interval);
+    ;
   }
 
   if (rightPressed && paddleX < canvas.width - (paddleWidth - 80)) {
@@ -222,6 +222,8 @@ function draw() {
 
   x += dx;
   y += dy;
+  requestAnimationFrame(draw)
 }
 
-var interval = setInterval(draw, 15);
+draw();
+
